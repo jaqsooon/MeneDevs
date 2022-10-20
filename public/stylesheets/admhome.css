@@ -1,0 +1,31 @@
+
+
+body {
+    background-color: antiquewhite;
+}
+.top-bar{
+    text-align: center;
+    background-color: grey;
+    padding-block: 20px;
+    
+}
+.flex-container {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-container button {
+    border: none;
+    background-color: transparent;
+    width: 301px;
+    height: 70px;
+    animation: 3 ease-in 1s;
+
+}
+
+.buttons :hover {
+    filter: brightness(90%);
+}
